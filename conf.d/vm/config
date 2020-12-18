@@ -7,3 +7,12 @@ Host vm-vpn
         ServerAliveInterval 60
 		
 
+Host vm-vpn
+        HostName vm-samba-nas.workgroup.yashiro.mydns.jp
+        User debian-user
+        Port 22
+#        IdentityFile ~/.ssh/.key.d/id_2017_03_20_rsa 
+        IdentityFile ~/.ssh/.key.d/id_common_v2_rsa
+        ServerAliveInterval 60
+		
+
