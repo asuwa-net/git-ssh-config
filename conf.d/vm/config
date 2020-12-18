@@ -1,4 +1,4 @@
-ostT vm-vpn
+Host vm-vpn
         HostName vm-vpn.workgroup.yashiro.mydns.jp
         User debian
         Port 22
