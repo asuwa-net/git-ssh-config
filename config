@@ -1,4 +1,4 @@
-Include conf.d/config
+Include git-ssh-config/conf.d/*/config
 Host asrock-debian
         HostName asrock-debian.workgroup.yashiro.mydns.jp
         User asrock
