@@ -1,0 +1,32 @@
+Include conf.d/config
+Host asrock-debian
+        HostName asrock-debian.workgroup.yashiro.mydns.jp
+        User asrock
+        Port 22
+#        IdentityFile ~/.ssh/.key.d/id_2017_03_20_rsa 
+        IdentityFile ~/.ssh/.key.d/id_common_v2_rsa
+        ServerAliveInterval 60
+
+
+Host front
+        HostName 192.168.13.107
+        User debian
+        Port 22
+#       IdentityFile 
+        ServerAliveInterval 60
+
+Host test-docker
+        HostName 192.168.13.104
+        User debian
+        port 22
+#       IdentityFile 
+        IdentityFile ~/.ssh/.key.d/id_common_rsa
+        ServerAliveInterval 60
+
+Host debian
+        HostName 192.168.13.7
+        User msi
+        Port 22331
+        IdentityFile ~/.ssh/.key.d/id_common_v2_rsa
+#        IdentityFile ~/.ssh/.key.d/id_2017_03_20_rsa
+        ServerAliveInterval 60
