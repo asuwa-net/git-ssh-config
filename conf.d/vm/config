@@ -14,14 +14,14 @@ Host vm-samba-nas
         ServerAliveInterval 60
 		
 
-Host 
+Host drbd-msi
         HostName 192.168.13.71
         User drbd-cent
         Port 22
         IdentityFile ~/.ssh/.key.d/id_common_v2_rsa
         ServerAliveInterval 60
 		
-Host 
+Host drbd-asrock
         HostName 192.168.13.61
         User drbd-cent
         Port 22
